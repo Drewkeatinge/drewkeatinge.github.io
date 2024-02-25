@@ -1,5 +1,6 @@
 body {
   background-color: #292929;
+  scroll-padding-bottom: 2em;
 }
 
 .header {
@@ -163,7 +164,7 @@ p {
   padding: 5px 5px;
   display: block;
   text-align: left;
-  font: 10px 'Montserrat', cursive;
+  font: 15px 'Montserrat', cursive;
 }
 
 .dropdown-contents a:hover {
@@ -176,4 +177,44 @@ p {
 
 .show {
   display: block;
+}
+
+.intro {
+  color: white;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding-top: 30px;
+}
+
+.intro h2 {
+  font: 2.5em 'Press Start 2P', cursive;
+}
+
+.intro p {
+  font: 1.5em 'Montserrat', cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    margin: 10px;
+  }
+}
+
+.footer {
+  background-color: black;
+  height: 80px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.footer p {
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+  height: 100px;
 }
