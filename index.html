@@ -17,7 +17,7 @@
   <body>
     <div class="header">
       <div class="header-image-1">
-        <img src="\\wsl.localhost\Ubuntu\home\drewkeats\dev-foundations\drewkeatinge.github.io\images\Ps-controller-icon.svg" alt="game controller">
+        <img src="images/playstation-controller.png" alt="game controller">
       </div>
       <div class="main-header">
         <h1>Drew Keatinge</h1>
@@ -26,41 +26,45 @@
         </div>
     </div>
     <div class="header-image-2">
-      <img src="lucario.png" alt="image of lucario">
+      <img src="images/lucario.png" alt="image of lucario">
     </div>
     </div>
     <div class="menus">
       <div class="dropdown-menu">
-      <button class="drop-button">Foundations</button>
-      <div class="dropdown-contents">
-        <a>Sprint 1</a>
-        <a>Sprint 2</a>
-        <a>Sprint 3</a>
-        <a>Sprint 4</a>
-        <a>Sprint 5</a>
-      </div>
-      </div>
-      <div class="dropdown-menu">
-      <button class="drop-button">Bootcamp</button>
-      <div class="dropdown-contents">
-        <a>Sprint 1</a>
-        <a>Sprint 2</a>
-        <a>Sprint 3</a>
-        <a>Sprint 4</a>
-        <a>Sprint 5</a>
-      </div>
+        <button id="foundation-button" class="drop-button" onclick="buttonClick(1)">Foundations</button>
+        <div class="dropdown-contents" id="dropdownList1">
+          <a>Sprint 1</a>
+          <a>Sprint 2</a>
+          <a>Sprint 3</a>
+          <a>Sprint 4</a>
+          <a>Sprint 5</a>
+        </div>
       </div>
       <div class="dropdown-menu">
-      <button class="drop-button">Careers</button>
-      <div class="dropdown-contents">
-        <a>Sprint 1</a>
-        <a>Sprint 2</a>
-        <a>Sprint 3</a>
-        <a>Sprint 4</a>
-        <a>Sprint 5</a>
+        <button id="bootcamp-button" class="drop-button" onclick="buttonClick(2)">Bootcamp</button>
+        <div class="dropdown-contents" id="dropdownList2">
+          <a>Sprint 1</a>
+          <a>Sprint 2</a>
+          <a>Sprint 3</a>
+          <a>Sprint 4</a>
+          <a>Sprint 5</a>
+        </div>
       </div>
+      <div class="dropdown-menu">
+        <button id="careers-button" class="drop-button" onclick="buttonClick(3)">Careers</button>
+        <div class="dropdown-contents" id="dropdownList3">
+          <a>Sprint 1</a>
+          <a>Sprint 2</a>
+          <a>Sprint 3</a>
+          <a>Sprint 4</a>
+          <a>Sprint 5</a>
+        </div>
       </div>
     </div>
+    
+
+      <script src="javascript/main.js"></script> 
+
     <div>
     <p> This is the beginning of my website home page.</p>
     <p> It will eventually contain a list of links to all my blogs. </p>
