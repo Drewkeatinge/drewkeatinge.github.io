@@ -7,7 +7,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  background-image: url(drewkeatinge.github.io\images\kanto-badges.png);
   height: 400px;
 }
 
@@ -95,10 +94,12 @@ p {
   line-height: 60px;
 }
 
-.dev-academy-box p {
+.dev-academy-box a {
   margin: 0 auto;
   font-size: 2.5em;
   padding: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -165,53 +166,68 @@ p {
   display: block;
   text-align: left;
   font: 15px 'Montserrat', cursive;
+  text-decoration: none;
 }
 
 .dropdown-contents a:hover {
   background-color: grey;
 }
 
-/* .dropdown-menu:hover .dropdown-contents {
-  display: block;
-} */
-
 .show {
   display: block;
 }
 
-.intro {
+.content {
   color: white;
-  margin-left: 33%;
-  margin-right: 33%;
+  margin-left: 30%;
+  margin-right: 30%;
   padding-top: 30px;
 }
 
-.intro h2 {
-  font: 2.5em 'Press Start 2P', cursive;
+.content h2 {
+  font: 2.3em 'Press Start 2P', cursive;
+  line-height: 1.6;
 }
 
-.intro p {
+.content h3 {
+  font: 1.5em 'Press Start 2P', cursive;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.content h4 {
+  font: 1.9em 'Futura', cursive;
+  margin-bottom: 0;
+  line-height: 1.6;
+  text-shadow: 1px 1px blue;
+}
+
+.content p {
   font: 1.5em 'Montserrat', cursive;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  .intro {
+  .content {
     margin: 10px;
   }
 }
 
+.content img {
+  width: 100%;
+}
+
 .footer {
-  background-color: black;
-  height: 80px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  height: 60px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: absolute;
   width: 100%;
   text-align: right;
 }
 
 .footer p {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .clear {

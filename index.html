@@ -2,19 +2,28 @@
 
 <html lang="en-nz">
   <head>
+    
+    <!-- set charset and viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+     <!-- link to css -->
     <link href="styles\main.css" rel="stylesheet" type="text/css">
   
+    <!-- web apge title - name that appears in the tab in chrome -->
     <title>Drew Keatinge Blog</title>
     
     <!--import a web font from google-->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
     </style>
+
+  </head>
   
+  <!-- body of the webpage -->
   <body>
+
+    <!-- heading of page - this will be present on all pages -->
     <div class="header">
       <div class="header-image-1">
         <img src="images/playstation-controller.png" alt="game controller">
@@ -22,79 +31,104 @@
       <div class="main-header">
         <h1>Drew Keatinge</h1>
         <div class="dev-academy-box">
-          <p>Dev Academy Blog 2024</p>
+          <a href="index.html">Dev Academy Blog 2024</a>
         </div>
     </div>
     <div class="header-image-2">
       <img src="images/microphone.png" alt="image of lucario">
     </div>
     </div>
+    
+    <!-- end of header -->
+
+    <!-- start of menu bar -->
+    
     <div class="menus">
       <div class="dropdown-menu">
         <button id="foundation-button" class="drop-button" onclick="buttonClick(1)">Foundations</button>
         <div class="dropdown-contents" id="dropdownList1">
-          <a>Sprint 1</a>
-          <a>Sprint 2</a>
-          <a>Sprint 3</a>
-          <a>Sprint 4</a>
-          <a>Sprint 5</a>
+          <a href="blog/te-houtaewa-template.html">te-houtaewa-template</a>
+          <a href="blog/html-css.html">Margin, Border & Padding</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
         </div>
       </div>
       <div class="dropdown-menu">
         <button id="bootcamp-button" class="drop-button" onclick="buttonClick(2)">Bootcamp</button>
         <div class="dropdown-contents" id="dropdownList2">
-          <a>Sprint 1</a>
-          <a>Sprint 2</a>
-          <a>Sprint 3</a>
-          <a>Sprint 4</a>
-          <a>Sprint 5</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
         </div>
       </div>
       <div class="dropdown-menu">
         <button id="careers-button" class="drop-button" onclick="buttonClick(3)">Careers</button>
         <div class="dropdown-contents" id="dropdownList3">
-          <a>Sprint 1</a>
-          <a>Sprint 2</a>
-          <a>Sprint 3</a>
-          <a>Sprint 4</a>
-          <a>Sprint 5</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
+          <a>Placeholder</a>
         </div>
       </div>
     </div>
-    
 
+    
+      <!-- Javascript for button functionality -->
+   
       <script src="javascript/main.js"></script> 
 
-    <div class="intro">
+      <!-- end of menu bar -->
+
+
+      <!-- start of page content -->
+    <div class="content">
       <h2>Intro</h2>
           
-      <p> 
-        Welcome to my blog for Dev Academy 2024. I have styled this blog in a style that
+      <h4> 
+        Welcome to my blog for Dev Academy 2024. 
+      </h4>
+      <p>        
+        I have styled this blog in a style that
         I feel is similar to my interests. I have chosen an 8-bit/classic video game font 
-        style for my main headers and a controller to represent my interest in gaming and 
-        then to represent my interest in stand-up comedy a more traditional/simple style
-        for the core content symbolizing getting the point across along with a 
-        microphone in a spotlight. 
+        style for my main headers and a controller to represent my interest in gaming.
+      </p>
+      
+      <p>
+        To represent my interest in stand-up comedy a more traditional / simple style
+        for the core content symbolizing getting the point across (if you can't do that 
+        when telling a joke you're in trouble!) along with a microphone in a spotlight. 
+      </p>
         
       <p>
         Throughout the duration of the course I will be 
-        updating this site with blog posts of my journey. 
+        updating this site with blog posts of my journey. I'm sure this 
+        blog with update and change over time. 
       </p>
       </p>
       <p>
         To access the blog posts you can click on the relevant course segment to find links
-        through to each entry.
+        through to each entry. To return to this page you can click the Dev Academy Blog 2024 banner at the top
       </p>
+
       
     </div>
+
+    <!-- end of page content -->
+
+    <!-- added this clear div to ensure footer didn't cover content  -->
 
     <div class="clear">
       <p> </p>
     </div>
 
-    <footer class="footer">
+    <!-- added a footer  -->
+    <div class="footer">
       <p>Goozoo Ltd</p>
 
-    </footer>
+    </div>
   </body>
 </html>

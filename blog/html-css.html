@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en-nz">
+  <head>
+    <!-- set charset and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link to css -->
+    <link href="..\styles\main.css" rel="stylesheet" type="text/css" />
+
+    <!-- web page title - name that appears in the tab in chrome -->
+    <title>What is the difference between Margin, Border, and Padding?</title>
+
+    <!-- import a web font from google -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+    </style>
+
+    <!-- body of the webpage -->
+    <body>
+      <!-- heading of page - this will be present on all pages -->
+      <div class="header">
+        <div class="header-image-1">
+          <img
+            src="../images/playstation-controller.png"
+            alt="game controller"
+          />
+        </div>
+        <div class="main-header">
+          <h1>Drew Keatinge</h1>
+          <div class="dev-academy-box">
+            <a href="../index.html">Dev Academy Blog 2024</a>
+          </div>
+        </div>
+        <div class="header-image-2">
+          <img src="../images/microphone.png" alt="image of lucario" />
+        </div>
+      </div>
+
+      <!-- end of header -->
+
+      <!-- start of menu bar -->
+
+      <div class="menus">
+        <div class="dropdown-menu">
+          <button
+            id="foundation-button"
+            class="drop-button"
+            onclick="buttonClick(1)"
+          >
+            Foundations
+          </button>
+          <div class="dropdown-contents" id="dropdownList1">
+            <a href="../blog/te-houtaewa-template.html">te-houtaewa-template</a>
+            <a href="../blog/html-css.html">Margin, Border & Padding</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+          </div>
+        </div>
+        <div class="dropdown-menu">
+          <button
+            id="bootcamp-button"
+            class="drop-button"
+            onclick="buttonClick(2)"
+          >
+            Bootcamp
+          </button>
+          <div class="dropdown-contents" id="dropdownList2">
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+          </div>
+        </div>
+        <div class="dropdown-menu">
+          <button
+            id="careers-button"
+            class="drop-button"
+            onclick="buttonClick(3)"
+          >
+            Careers
+          </button>
+          <div class="dropdown-contents" id="dropdownList3">
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+            <a>Placeholder</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Javascript for button functionality -->
+
+      <script src="../javascript/main.js"></script>
+
+      <!-- end of menu bar -->
+
+      <!-- start of page content -->
+
+      <div class="content">
+        <h2>Margin, Border, and Padding</h2>
+
+        <h4><strong>What's the difference?</strong></h4>
+
+        <p>
+          When I think about Margin, Borders and Padding, I think about swimming
+          pools.
+        </p>
+        <p>
+          To help illustrate my analogy I have made up this image below
+          labelling each part with what represents what.
+        </p>
+
+        <img src="../images/swimming-pool.png" alt="image of swimming pool" />
+
+        <h3>Padding</h3>
+        <p>
+          The padding is like the area around the pool where you can walk
+          around, or put a deck chair & tables etc it's the space between the
+          element (in this case the pool) and the border (the fence)
+        </p>
+
+        <h3>Border</h3>
+
+        <p>
+          The border here is represented by the fence, - this is the boundry of
+          the element and is what sperates it from other elements. Just as the
+          walls of the pool hold the water, the border is the walls that hold
+          the element.
+        </p>
+
+        <h3>Margin</h3>
+
+        <p>
+          This is the area around the element, it's the space between the border
+          and other elements. in this example it would be the distance you walk
+          from your house to your swimming pool.
+        </p>
+      </div>
+
+      <!-- end of page content -->
+
+      <!-- added this clear div to ensure footer didn't cover content  -->
+
+      <div class="clear">
+        <p></p>
+      </div>
+
+      <!-- added a footer  -->
+
+      <div class="footer">
+        <p>Goozoo Ltd</p>
+      </div>
+    </body>
+  </head>
+</html>
