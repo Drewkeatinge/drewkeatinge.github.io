@@ -42,6 +42,7 @@ class Header extends HTMLElement {
         <a href="../blog/identity-values.html">Identity, Values & Strengths</a>
         <a href="../blog/learning-plan.html">Learning Plan</a>
         <a href="../blog/emotional-intelligence.html">Emotional Intelligence</a>
+        <a href="../blog/javascript-dom.html">Javascript DOM</a>
       </div>
     </div>
     <div class="dropdown-menu">

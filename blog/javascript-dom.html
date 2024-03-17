@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en-nz">
+  <head>
+    <!-- set charset and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link to css -->
+    <link href="..\styles\main.css" rel="stylesheet" type="text/css" />
+
+    <!-- web page title - name that appears in the tab in chrome -->
+    <title>What is the difference between Margin, Border, and Padding?</title>
+    <link rel="icon" type="image/x-icon" href="../images/pokeball.png" />
+
+    <!-- import a web font from google -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+    </style>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+  </head>
+
+  <!-- body of the webpage -->
+  <body>
+    <header-component></header-component>
+    <script src="../javascript/main.js"></script>
+
+    <!-- start of page content -->
+
+    <div class="content">
+      <h2>Javascript DOM</h2>
+      <h4>First of all, What is it?</h4>
+      <p>
+        Javascript is a programming language that we can use to manipulate
+        webpages.
+      </p>
+      <p>
+        The DOM (Document Object Module) is an interface that allows content on
+        a webpage to be created or changed.
+      </p>
+      <p>
+        For examples the Header and menus on this page are all created using
+        Javascript
+      </p>
+      <h4>How does it all work?</h4>
+      <p>
+        Javascript uses a sort of naming convention to find and target the
+        building block of a website - we call these names classes and/or ids.
+        Using these 'names' we can ask the relative blocks to behave in certain
+        ways.
+      </p>
+      <h4>How might you interact with it?</h4>
+      <p>
+        The best way I feel I can explain is it try and imagine a school
+        assembly where each student represents a website buiding block, each row
+        of students represents an object (in this scenario it would be an array)
+        and the entire hall represents the DOM. The principal represents
+        Javascript and the Principals words represent functions.
+      </p>
+      <p>
+        Each student has a name, i.e. Harold, this name is representative of
+        their 'id'.
+      </p>
+      <h4>Functions</h4>
+      <p>
+        If the principal was to say "Stand up Harold" this would be Javascript
+        calling a function. These instructions target Harold by his 'id' and ask
+        him to change his state from sitting to standing.
+      </p>
+      <p>This could be respresented like this</p>
+      <img src="../images/standup-single.png" />
+      <h4>Loops</h4>
+      <p>
+        If the principal then wanted to they could ask every student in the row
+        to do the same thing. This is called a loop as it would go through each
+        student one by one until the end of the row. Lets say it's a row with
+        the 'class' of Row-A
+      </p>
+      <p>This could be represented like this</p>
+      <img src="../images/stand-row.png" />
+      <h4>Control Flow</h4>
+      <p>
+        This would be similar to an assembly agenda, basically means the order
+        of things starting at the top and working towards the bottom (generally)
+      </p>
+      <h4>Arrays vs Objects</h4>
+      <p>
+        Arrays store data in a singular type fashion i.e (1, 2, 3, 4, 5), you
+        can access this information by referencing the sequance location whereas
+        an object stores things as key-value pairs i.e {PE:Ball, Math:Ruler}. To
+        access the value you need to first address the key.
+      </p>
+      <h4>Javascript in relation to HTML & CSS</h4>
+      <p>
+        Best way I can describe this is with a set of drawers. HTML is what the
+        drawers are made of and also what each draw contains. CSS is how the
+        drawers look and feel. Javascript is the action of opening and or
+        closing the drawers.
+      </p>
+      <img src="../images/drawer-opening.gif" />
+    </div>
+    <!-- end of page content -->
+
+    <!-- added this clear div to ensure footer didn't cover content  -->
+
+    <div class="clear">
+      <p></p>
+    </div>
+
+    <!-- added a footer  -->
+
+    <div class="footer">
+      <p>Goozoo Ltd</p>
+    </div>
+  </body>
+</html>
