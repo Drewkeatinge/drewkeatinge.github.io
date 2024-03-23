@@ -219,6 +219,15 @@ p {
   margin-top: 10px;
 }
 
+.content ul {
+  font: 1.5em 'Roboto', cursive;
+  margin-top: 10px;
+}
+
+.content a {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .content {
     margin: 10px;

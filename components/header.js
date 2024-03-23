@@ -37,12 +37,14 @@ class Header extends HTMLElement {
         Foundations
       </button>
       <div class="dropdown-contents" id="dropdownList1">
-        <a href="../blog/te-houtaewa-template.html">te-houtaewa-template</a>
+        <a href="../blog/te-houtaewa-template.html">Te Houtaewa Template</a>
         <a href="../blog/html-css.html">Margin, Border & Padding</a>
         <a href="../blog/identity-values.html">Identity, Values & Strengths</a>
         <a href="../blog/learning-plan.html">Learning Plan</a>
         <a href="../blog/emotional-intelligence.html">Emotional Intelligence</a>
         <a href="../blog/javascript-dom.html">Javascript DOM</a>
+        <a href="../blog/neuroplasticity.html">Neuroplasticity</a>
+        <a href="../blog/te-whare-tapa-wha.html">Te Whare Tapa Wha</a>
       </div>
     </div>
     <div class="dropdown-menu">
