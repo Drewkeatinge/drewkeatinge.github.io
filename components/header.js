@@ -46,6 +46,7 @@ class Header extends HTMLElement {
         <a href="../blog/neuroplasticity.html">Neuroplasticity</a>
         <a href="../blog/te-whare-tapa-wha.html">Te Whare Tapa Wha</a>
         <a href="../blog/problem-solving.html">Problem Solving</a>
+        <a href="../blog/foundations-reflections.html">Foundation Reflections</a>
       </div>
     </div>
     <div class="dropdown-menu">
